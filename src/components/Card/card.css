@@ -1,0 +1,77 @@
+.card-title {
+  margin-top: 36px;
+}
+
+.card-title > p {
+  color: #7d67ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card {
+  width: 260px;
+  border-radius: 10px;
+  color: #fff;
+  padding: 14px;
+  background: linear-gradient(
+    320deg,
+    #7d67ff 0%,
+    rgba(147, 129, 255, 0.75) 100%
+  );
+}
+
+.no-bg {
+  border-radius: 10px;
+  border: 1px solid #7d67ff;
+  background: #f8f7ff;
+}
+
+.no-bg h1{
+  color: #7d67ff;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 span {
+  font-size: 40px;
+}
+
+.card .head {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card .stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profit p:last-child {
+  color: #3edd87;
+  margin-top: 4px;
+}
+
+.loss p:last-child {
+  color: red;
+  margin-top: 4px;
+}
+
+.netral p:last-child {
+  color: #cabbb2;
+  margin-top: 4px;
+}
+
+.no-bg .profit p:first-child,
+.no-bg .loss p:first-child,
+.no-bg .netral p:first-child{
+  color: #000;
+}
