@@ -1,18 +1,7 @@
-.card-title {
-  margin-top: 36px;
-}
-
-.card-title > p {
-  color: #7d67ff;
-  font-size: 18px;
-  font-weight: 700;
-}
-
 .card {
-  width: 260px;
   border-radius: 10px;
   color: #fff;
-  padding: 14px;
+  padding: 12px;
   background: linear-gradient(
     320deg,
     #7d67ff 0%,
@@ -31,7 +20,7 @@
 }
 
 .card h1 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   letter-spacing: 1.6px;
   display: flex;
@@ -39,7 +28,7 @@
 }
 
 .card h1 span {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .card .head {

@@ -1,0 +1,60 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile img {
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  color: #352e5b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.profile .edit {
+  color: #7d67ff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.account,
+.profile-asset {
+  margin-top: 36px;
+  width: 80%;
+}
+
+.account p,
+.profile-asset p {
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.account .joined,
+.account .asset-value,
+.profile-asset .joined,
+.profile-asset .asset-value {
+  display: flex;
+  justify-content: space-between;
+  color: #c0bbe0;
+}
+
+.account span,
+.profile-asset span {
+  color: black;
+}
+
+.profile .more-assets {
+  color: #7d67ff;
+  font-size: 14px;
+  font-weight: 500;
+  width: 80%;
+  margin-top: 24px;
+}

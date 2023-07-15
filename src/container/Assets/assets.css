@@ -1,7 +1,3 @@
-.assets {
-  margin-top: 55px;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -10,12 +6,12 @@
 
 .header p {
   color: #7d67ff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .asset-stats{
@@ -29,26 +25,26 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .asset-stats span>p{
   color: #7D67FF;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .new-asset{
   border-radius: 10px;
   border: 1px solid #7d67ff;
   background: #f8f7ff;
-  height: 164px;
-  margin-top: 34px;
-  width: 260px;
+  height: 10rem;
+  margin-top: 2.375rem;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #7D67FF;
-  gap: 8px;
+  gap: 0.5rem;
 }

@@ -1,15 +1,32 @@
 .App {
   display: flex;
   height: 100vh;
-  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow: hidden;
 }
 
 .mid-app {
   padding: 34px 24px;
-  width: 60%;
+  width: 62%;
+  height: 100%;
+}
+
+.mid-app > p{
+  color: #A5A2B8;
+}
+
+.mid{
+  margin: 55px 0;
+  padding-bottom: 30px;
+  overflow: scroll;
+  height: 100%;
+}
+
+.profile-app{
+  padding: 56px 0;
+  width: 20%;
   height: 100%;
 }

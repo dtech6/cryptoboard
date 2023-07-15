@@ -1,0 +1,39 @@
+.activity {
+  margin-top: 48px;
+  padding-bottom: 40px;
+}
+
+.activity-table {
+  border-radius: 8px;
+  background: linear-gradient(
+    312deg,
+    #9381ff 0%,
+    rgba(147, 129, 255, 0.89) 100%
+  );
+}
+
+.activity-table{
+    margin-top: 36px;
+    padding: 0 14px;
+}
+
+.activity-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activity-table thead > tr { 
+  border-bottom: 1px solid white;
+}
+
+.activity-table th {
+  color: #ffffffa9;
+  font-weight: 300;
+  padding: 14px;
+}
+
+.activity-table td {
+  text-align: center;
+  padding: 14px;
+  color: #fff;
+}
